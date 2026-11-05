@@ -2,7 +2,7 @@
 
 **Cardápio digital multi-tenant para restaurantes:** pedidos na mesa por QR code, retirada e entrega com frete por distância. Demonstração: [cardapio-online-agendacom.vercel.app](https://cardapio-online-agendacom.vercel.app).
 
-> O código-fonte fica em repositório privado por ser um produto comercial. Posso apresentar o código e a arquitetura em entrevista.
+> O código-fonte fica em repositório privado por ser um produto comercial. Posso mostrar o sistema funcionando e o código em uma entrevista.
 
 ## Funcionalidades
 
@@ -25,7 +25,7 @@
 | Testes | Vitest e testes de banco em Postgres em memória (regras e segurança) |
 | CI/CD | GitHub Actions + Vercel |
 
-## Decisões técnicas de destaque
+## Como o sistema foi pensado
 
 - **Preço nunca vem do cliente:** preço, frete e total são recalculados no banco (`place_order`) a cada pedido.
 - **Frete protegido:** o cardápio público não expõe as faixas de frete; a cotação só é feita depois que o cliente informa o endereço.
