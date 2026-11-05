@@ -34,7 +34,15 @@
 
 ## Telas
 
-<!-- Adicione prints em /screenshots e descomente:
-![Cardápio](screenshots/cardapio.png)
-![Painel de pedidos](screenshots/pedidos.png)
--->
+**Painel do restaurante**
+
+![Painel: início](screenshots/painel-inicio.png)
+
+![Painel: pedidos em tempo real](screenshots/painel-pedidos.png)
+
+**No celular**
+
+<p>
+  <img src="screenshots/celular-cardapio.png" width="40%" alt="Gestão do cardápio no celular">
+  <img src="screenshots/celular-pedidos.png" width="40%" alt="Pedidos no celular">
+</p>
